@@ -32,7 +32,7 @@ if %RAND%==10 set "file=C:\Windows\Media\Windows Notify Calendar.wav"
 if %RAND%==11 set "file=C:\Windows\Media\Windows Notify Email.wav"
 if %RAND%==12 set "file=C:\Windows\Media\Windows Notify Message.wav"
 if %RAND%==13 set "file=.\wav\fard.wav"
-if %RAND%==14 set "file=.\wav\Whatsapp_drip.wav"
+if %RAND%==14 set "file=.\wav\whatsapp_drip.wav"
 if %RAND%==15 set "file=.\wav\beans-wtf.wav"
 if %RAND%==16 set "file=.\wav\fard-reverb.wav"
 if %RAND%==17 set "file=.\wav\omg.wav"
@@ -55,7 +55,7 @@ goto lmao
 :end
 echo Number of sounds reached. Press a key to exit.
 pause
-if %killatend%==Y (taskkill /IM wscript.exe /F)
-if %killatend%==y (taskkill /IM wscript.exe /F)
+if %killatend%==Y (echo Stopping all sounds... & taskkill /IM wscript.exe /F)
+if %killatend%==y (echo Stopping all sounds... & taskkill /IM wscript.exe /F)
 del sound.vbs
 rem exit
