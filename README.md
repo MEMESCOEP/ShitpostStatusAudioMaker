@@ -9,6 +9,7 @@ This gui automatically detects all .MP3 and .WAV files in the specified director
 - lose brain cells
 
 ## How to run:
+- <strong><italics>make sure Windows Media Player is installed!</italics></strong>
 - download "ShitpostStatusAudioMaker.exe" and run it.
 - A GUI will come up. simply enter the required info.
 - press "start"
