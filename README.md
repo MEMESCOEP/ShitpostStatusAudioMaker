@@ -13,3 +13,11 @@ This gui automatically detects all .MP3 and .WAV files in the specified director
 - download "ShitpostStatusAudioMaker.exe" and run it.
 - A GUI will come up. simply enter the required info.
 - press "start"
+
+
+# NEW VERSION!!!!
+## Changelog:
+- Added ability to repeat # of times
+- Added ability to stop sounds on exit
+- Added ability to open folder so you don't have to type the path
+- Added ability to stop sounds after # of seconds
